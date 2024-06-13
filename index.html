@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Thumbnailes/fav.jpg" type="image/x-icon">
+    <title>Ancy Peter | Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Thumbnailes/logo.png" clas="logo">
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Service</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <i class="bi bi-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="bi bi-list"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Ancy Peter</span>
+                    <br>
+                    from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--About-->
+    <div id="about">
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Thumbnailes/section.png" alt="no image">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am Ancy Peter, a versatile professional with expertise in MERN (MongoDB, Express.js, React, Node.js) stack development. My passion for web design and development is evident in every pixel I perfect. Whether it’s creating seamless user experiences, my commitment to excellence shines through..</p>
+                        <div class="tab-title" >
+                            <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web designing</span></li>
+                        </ul>
+                        <ul>
+                            <li><span>HTML</span><br>Designing web interfaces</li>
+                        </ul>
+                        <ul>
+                            <li><span>CSS</span><br>Styling web interfaces</li>
+                        </ul>
+                        <ul>
+                            <li><span>Bootstrap</span><br>Frame work for designing web interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Pursuring</span><br>Intern at Brototype</li>
+                        </ul>
+                        <ul>
+                            <li><span>2022 - 2024</span><br>Analyst Programmer and SQL developer at Ramco System Limited</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Bachelor of Engineerig from Anna University</li>
+                        </ul>
+                        <ul>
+                            <li><span>2018</span><br>Higher Secondary Education from Kerala State Board</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="bi bi-code-slash"></i>
+                    <h2 >CUSTOM STYLING AND THEMING</h2>
+                    <p>Customize Bootstrap themes to match your clients’ brand identity. Modify CSS styles to create unique and engaging user interfaces.</p>
+                    <br>
+                    <a href="#portfolio">Learn more</a>
+                </div>
+                <div>
+                    <i class="bi bi-crop"></i>
+                    <h2>BOOTSTRAP INTEGRATION</h2>
+                    <p>Utilize Bootstrap to enhance your web projects. Leverage Bootstrap’s prebuilt components, grid system, and styling for consistent and professional designs.</p>
+                    <br>
+                    <a href="#portfolio">Learn more</a>
+                </div>
+                <div>
+                    <i class="bi bi-window-fullscreen"></i>
+                    <h2>RESPONSIVE WEB DESIGN</h2>
+                    <p>Create visually appealing and mobile-friendly websites using HTML and CSS. Implement to ensure optimal viewing across various devices.</p>
+                    <br>
+                    <a href="#portfolio">Learn more</a>
+                </div>
+                <div>
+                    <i class="bi bi-graph-up-arrow"></i>
+                    <h2>PERFORMANCE OPTIMIZATION</h2>
+                    <p>Optimize front-end code for faster loading times. Minimize HTTP requests, optimize images, and improve overall site performance.</p>
+                    <br>
+                    <a href="#portfolio">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Portfolio-->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Thumbnailes/Tesla.png">
+                    <div class="layer">
+                        <h3>TESLA</h3>
+                        <p>Website created using HTML and CSS</p>
+                        <a href="https://ancypeter2k.github.io/TESLA_clone/"><i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Thumbnailes/KFC.png">
+                    <div class="layer">
+                        <h3>KFC</h3>
+                        <p>Website created using HTML and CSS</p>
+                        <a href="https://ancypeter2k.github.io/kfc_clone/"><i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Thumbnailes/my.png">
+                    <div class="layer">
+                        <h3>Burger Kings</h3>
+                        <p>Responsive website</p>
+                        <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+   <!--Contact-->
+
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="bi bi-send"></i>ancypeter2k@gmail.com</p>
+                <p><i class="bi bi-telephone-fill"></i>8137914334</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ancy-peter-37ab2522b/"><img src="Thumbnailes/link.png" alt="Linked in"></a>
+                    <a href="https://www.instagram.com/a_n_c_y_p_e_t_e_r?igsh=cW93aThuczN4cHhh"><img src="Thumbnailes/inst.png" alt="Instagram"></a>
+                    <a href="#"><img src="Thumbnailes/Facebook.png" alt="Facebook"></a>
+                </div>
+                <a href="Thumbnailes/Ancy_Peter.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" id="form" action="https://api.web3forms.com/submit" method="post">
+                    <!-- my Access key here -->
+
+                    <input type="hidden" name="access_key" value="8fd4e823-2a59-49be-bbdd-832294fb86a7">
+                    <div>
+                    <input type="text" name="Name" placeholder="Your Name" id="name">
+                    <span id="name_error" style="color: red;"></span>
+                    </div>
+                    <div>
+                    <input type="text" name="Email" placeholder="Your Email" id="email" >
+                    <span id="email_error" style="color: red;"></span>
+                    </div>
+                    <div>
+                    <textarea name="Message" rows="6" placeholder="Your Message" id="message"></textarea>
+                    <span id="message_error" style="color: red;"></span>
+                    </div>
+                    <div>
+                    <button type="submit" class="btn btn2" value="send message">Submit</button>
+                    
+                    </div>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="bi bi-c-circle-fill"></i> Ancy.</p>
+    </div>
+   </div>
+
+
+    <!--Script-->
+    <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+    </script>
+<script src="script.js"></script>
+      
+</body>
+</html>
